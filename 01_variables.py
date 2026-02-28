@@ -38,7 +38,11 @@ age = "Israel"
 print(name)
 print(age)
 
+# forzamos el tipo
 address: str = "Mi dirección"
-address = 80
+address = True
+address = 5
+address = 1.2
+address = 1+ 5j
 print (type(address))  
 
